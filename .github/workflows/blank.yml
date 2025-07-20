@@ -14,5 +14,5 @@ jobs:
     steps:
       - uses: test-hook-neurade/hook-backend@v5
         env:
-          BACKEND_URL: http://103.237.147.55:8085
-          SECRET_TOKEN: trucxinh
+          BACKEND_URL: ${{ secrets.BACKEND_URL }}
+          SECRET_TOKEN: ${{ secrets.SECRET_TOKEN }}
