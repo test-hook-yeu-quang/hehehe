@@ -12,7 +12,7 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - uses: test-hook-neurade/hook-backend@v1
+      - uses: test-hook-neurade/hook-backend@v2
         env:
           BACKEND_URL: http://103.237.147.55:8085
           SECRET_TOKEN: trucxinh
